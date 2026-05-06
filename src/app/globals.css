@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  /* Tommy Hans Aesthetic */
+  --color-teal: #0A191E;
+  --color-teal-light: #122830;
+  --color-orange: #F5A623;
+  --color-orange-hover: #d98f1b;
+  --color-charcoal: #050d10;
+  
+  --color-background: var(--color-teal);
+  --color-foreground: #ffffff;
+  
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-playfair);
+}
+
+:root {
+  --background: #0A191E;
+  --foreground: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: var(--font-display), serif;
+}
+
+/* Hard, sharp selection colors */
+::selection {
+  background-color: var(--color-orange);
+  color: #0A191E;
+}
+
+/* Custom scrollbar matching dark aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-teal-light);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-orange);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
