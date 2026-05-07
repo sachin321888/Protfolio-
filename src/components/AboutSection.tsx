@@ -33,13 +33,13 @@ export default function AboutSection() {
           >
             <div>
               <p className="text-xs uppercase tracking-widest text-orange font-semibold mb-2">Current Work</p>
-              <p className="text-base leading-relaxed">Freelance Photographer & Visual Storyteller based in Kerala. Passionate about capturing authentic moments and crafting compelling visual narratives. Currently available for collaborations and exciting projects globally.</p>
+              <p className="text-base leading-relaxed">Currently working in Mercedez benz as an automation engineer. Freelance Photographer & Visual Storyteller based in Kerala. Passionate about capturing authentic moments and crafting compelling visual narratives. Currently available for collaborations and exciting projects globally.</p>
             </div>
             
             <div className="mt-2">
               <p className="text-xs uppercase tracking-widest text-orange font-semibold mb-2">Get in Touch</p>
-              <a href="tel:+910000000000" className="text-3xl font-display text-white hover:text-orange transition-colors inline-block">
-                +91 00000 00000
+              <a href="tel:+918075965788" className="text-3xl font-display text-white hover:text-orange transition-colors inline-block">
+                +91 8075965788
               </a>
               <p className="text-sm mt-2 opacity-60">Feel free to reach out via phone or text.</p>
             </div>
