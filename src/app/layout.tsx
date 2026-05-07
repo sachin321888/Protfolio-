@@ -37,7 +37,6 @@ export default function RootLayout({
             <nav className="hidden md:flex items-center gap-10">
               <a href="#about" className="text-sm tracking-wide text-white/70 hover:text-white transition-colors">About</a>
               <a href="#portfolio" className="text-sm tracking-wide text-white/70 hover:text-white transition-colors">Gallery</a>
-              <a href="#" className="text-sm tracking-wide text-white/70 hover:text-white transition-colors">Exhibitions</a>
               <a href="#" className="text-sm tracking-wide text-white/70 hover:text-white transition-colors">Contact</a>
             </nav>
             
